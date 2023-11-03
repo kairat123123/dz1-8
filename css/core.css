@@ -1,0 +1,160 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #4c5866;
+
+}
+.separator3 {
+    position: absolute;
+    background: url("../images/Dcsq95I98tx6AXATxc7Hfg-fotor-bg-remover-2023110344536.png");
+    width: 500px;
+    height: 281px;
+    margin: -182px 849px;
+}
+
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Britannic Bold", sans-serif;
+    background: #c2d0d0;
+
+
+}
+
+.btn {
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid var(--orange);
+    background: #919EA7;
+    color: var(--orange);
+    border-radius: 8px;
+    box-shadow: inset 10px 10px 10px black;
+}
+.btn:hover {
+
+    background: #414349;
+    box-shadow: inset -10px -10px 10px black;
+}
+
+.btn:active {
+    background: #56585D;
+    border: 2px solid var(--orange);
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #bbcdcc;
+}
+li {
+    list-style-type: none;
+}
+
+li>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    height: 40px;
+    width: 100px;
+    background: #293a4d;
+    border-radius: 8px;
+    box-shadow: inset -7px -8px 8px #232330;
+
+}
+li>a:focus {
+     background: #293a4d;
+    box-shadow: inset 8px 8px #232330;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    color: #293a4d;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #00aff6;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    color: #4c5866;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+strong {
+    color: #4c5866;
+    text-shadow: 10px 10px 7px black;
+}
+
+label {
+    font-size: 24px;
+    color: #4c5866;
+}
+
+input {
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 5px;
+    color: #4c5866;
+    background: #EAF2F5;
+    border: 2px solid #4c5866;
+}
+
+.checker {
+    color: white;
+    font-size: 30px;
+}
+
+.btn-slide {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: #4c5866;
+    color: #EAF2F5;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 50%;
+    font-weight: 800;
+    z-index: 1;
+}
+
+.btn-slide:hover {
+    background: #818181 !important;
+    cursor: pointer;
+    color: #00aff6;
+}
+
+:root {
+    --orange: #4c5866
+}
